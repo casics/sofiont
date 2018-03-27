@@ -14,14 +14,14 @@ _Softiont_ is the _Software Interface Ontology_, a controlled vocabulary of soft
 
 One of the goals of the CASICS project is to describe software systems using controlled vocabularies, so that users can more easily find exactly the kind of software they are looking for.  One of the dimensions along which we wanted to categorize software is the kind of interfaces offered for (human) users as well as other software.  For example, does a given software tool provide a graphical user interface meant to be used on a desktop computer, or a command-line interface, or is it a programming toolkit offering only an API?  We began by using the [Software Ontology (SWO)](https://github.com/allysonlister/swo), which was the only ontology we could find that provided the kind of terms we needed, but we ultimately found we needed a bit more depth than SWO offered.  So we began to develop our own ontology of interface types.
 
-_Softint_ provides terms for both human interface types and programmatic (API) interface types.  The terms can be used to describe the types of interfaces provided to users of a software system, where "user" is taken broadly to mean both human users and software programs.  A given software tool may provide more than one type of interface, of course, and it is perfectly reasonable to use as many Softint terms as applicable to describe the software tool.
+_Softiont_ provides terms for both human interface types and programmatic (API) interface types.  The terms can be used to describe the types of interfaces provided to users of a software system, where "user" is taken broadly to mean both human users and software programs.  A given software tool may provide more than one type of interface, of course, and it is perfectly reasonable to use as many Softiont terms as applicable to describe the software tool.
 
 <!--
-Some examples of using Softint terms:
+Some examples of using Softiont terms:
 
 * `ls` is a command-line program available in most Unix-like systems.  It provides only one interface:
 
-    **Softint** ➜ `User Interface` ➜ `Text-Base User Interface` ➜ `Command-Line Interface`
+    **Softiont** ➜ `User Interface` ➜ `Text-Base User Interface` ➜ `Command-Line Interface`
 -->
 
 ⁇ Getting help and support
