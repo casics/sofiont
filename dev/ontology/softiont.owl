@@ -1,0 +1,344 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://webprotege.stanford.edu/project/wplwubTsdPUxlf8Ff53oX#"
+     xml:base="http://webprotege.stanford.edu/project/wplwubTsdPUxlf8Ff53oX"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:definition="http://purl.obolibrary.org/obo/definition+"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/">
+    <owl:Ontology rdf:about="http://webprotege.stanford.edu/project/wplwubTsdPUxlf8Ff53oX"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/definition -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/definition">
+        <rdfs:label>definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/definition+source -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/definition+source">
+        <rdfs:label>definition source</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R72l6ol1LXdAcTa2Ic3WPg7 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R72l6ol1LXdAcTa2Ic3WPg7">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDApbVO5YgrTedVKqj9dsFX"/>
+        <obo:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A haptic user interface specialized to use a pen-like interface.</obo:definition>
+        <rdfs:label>Pen Tablet Interface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R73U6b1RhvR4ZYXelBJWEap -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R73U6b1RhvR4ZYXelBJWEap">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDApbVO5YgrTedVKqj9dsFX"/>
+        <obo:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A haptic user interface that sense input and produces output using physical representations of the Braille alphabet.</obo:definition>
+        <rdfs:label>Braille Terminal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7mcRBlIJ1ftpaoUR2oUB7s -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7mcRBlIJ1ftpaoUR2oUB7s">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBoeUuDLJNzT6tt5qwJeDk"/>
+        <obo:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An interface and protocol for communication between electronic musical instruments and other electronic devices.</obo:definition>
+        <rdfs:label>Musical Instrument Digital Interface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R84op1iUV4j57axJV19dgIo -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R84op1iUV4j57axJV19dgIo">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8na8VKnWav0TgHXhnOPtcC"/>
+        <obo:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A graphical user interface that accepts input and provides output by generating web pages that are transmitted via a network and viewed by the user using a web browser program.</obo:definition>
+        <rdfs:label>Web-Based User Interface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8XblilRxWO2Y6Omc9hVAoj -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8XblilRxWO2Y6Omc9hVAoj">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RhBXLI6GFdDdrw3FrxDB1R"/>
+        <rdfs:label>Gesture-Driven Interface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8hKmjIxeopdVid1YSzZqCJ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8hKmjIxeopdVid1YSzZqCJ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8nu17Buqw1aoAS9dnFLb5i"/>
+        <obo:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A textual user interface that requires the user to write commands in a text file using a specialized syntax. The software program operated by the batch interface reads the file and interprets the commands therein.</obo:definition>
+        <rdfs:label>Batch Interface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8na8VKnWav0TgHXhnOPtcC -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8na8VKnWav0TgHXhnOPtcC">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RSPl1mLotSmKXYXQMj8KAr"/>
+        <obo:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A type of user interface that allows users to interact with electronic devices through graphical representations and visual indicators.</obo:definition>
+        <rdfs:label>Graphical User Interface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8nu17Buqw1aoAS9dnFLb5i -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8nu17Buqw1aoAS9dnFLb5i">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RSPl1mLotSmKXYXQMj8KAr"/>
+        <obo:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A user interface that involves displaying textual information and accepting input in the form of written textual commands.</obo:definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Text-Based User Interface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9GCWwtRVX5bQzZwoWWETcE -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9GCWwtRVX5bQzZwoWWETcE">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBvA0B2rJe6C3DTuxOc7TGl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gaming Console</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9LrkTabzORH5LC7PzN62MZ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9LrkTabzORH5LC7PzN62MZ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8nu17Buqw1aoAS9dnFLb5i"/>
+        <obo:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A type of program interface in which the user invokes actions by typing textual commands in a text mode display system. Each command typical requires a single invocation of the program, which exits after performing the command.</obo:definition>
+        <rdfs:label>Command-Line Interface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9yF9Yc7NWEBKUS18R4UfYf -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9yF9Yc7NWEBKUS18R4UfYf">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RSPl1mLotSmKXYXQMj8KAr"/>
+        <rdfs:label>Distributed User Interface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBDMuQVOwW7YUKAQTsPR5XM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBDMuQVOwW7YUKAQTsPR5XM">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RPkPyfNpEs4Q43Y7CkxudU"/>
+        <obo:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A type of haptic user interface that sense and/or provide feedback of force and moment.</obo:definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kinesthetic Haptic Interface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBoeUuDLJNzT6tt5qwJeDk -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBoeUuDLJNzT6tt5qwJeDk">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RSPl1mLotSmKXYXQMj8KAr"/>
+        <obo:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A type of interface that relies on physical elements, such as knobs, buttons, sliders, and switches.</obo:definition>
+        <rdfs:label>Hardware User Interface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBvA0B2rJe6C3DTuxOc7TGl -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBvA0B2rJe6C3DTuxOc7TGl">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBoeUuDLJNzT6tt5qwJeDk"/>
+        <obo:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A type of hardware user interface for humans to provide input to a system via direct physical action. Examples of devices in this category include knobs, sliders, steering wheels, etc.</obo:definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Operator Interface Console</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC4JyerLtXOQoHQIYhsO8oH -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC4JyerLtXOQoHQIYhsO8oH">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RPkPyfNpEs4Q43Y7CkxudU"/>
+        <obo:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A type of haptic user interface that does not involve direct physical contact with the user. An example mechanisms for non-contact haptic interfaces is the use of ultrasound.</obo:definition>
+        <rdfs:label>Non-Contact Haptic Interface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC6iJLx5YddJBesLTXQRYrs -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC6iJLx5YddJBesLTXQRYrs">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBvA0B2rJe6C3DTuxOc7TGl"/>
+        <rdfs:label>Pointing Device Interface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCNrJepZrz8nd4ndrMQwO8K -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCNrJepZrz8nd4ndrMQwO8K">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8nu17Buqw1aoAS9dnFLb5i"/>
+        <obo:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A type of text-based user interface in which input and output is handled by a program in direct interaction with the user through a text mode display. The interface operates in a sequence of displaying information, prompting the user for input, waiting for input from the user, acting on the input, and back to displaying information.</obo:definition>
+        <rdfs:label>Interactive Text-Based Interface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCgQv2b480pQIBpwN0WxVsv -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCgQv2b480pQIBpwN0WxVsv">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDApbVO5YgrTedVKqj9dsFX"/>
+        <obo:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A type of haptic user interface in which traditional user interface elements are replaced with everyday objects, such as a tabletop surface.</obo:definition>
+        <rdfs:label>Surface Computing Interface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RClBaSfm6whV3d6xXT5Zlj2 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RClBaSfm6whV3d6xXT5Zlj2">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RSPl1mLotSmKXYXQMj8KAr"/>
+        <obo:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An interface that supports communication directly between a brain and an external device.</obo:definition>
+        <rdfs:label>Brain-Computer Interface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDApbVO5YgrTedVKqj9dsFX -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDApbVO5YgrTedVKqj9dsFX">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RPkPyfNpEs4Q43Y7CkxudU"/>
+        <obo:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A type of haptic user interface that relies on the human sense of touch.</obo:definition>
+        <rdfs:label>Touch User Interface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDVIUFFtAWW3YCB7hMPXPsE -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDVIUFFtAWW3YCB7hMPXPsE">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8na8VKnWav0TgHXhnOPtcC"/>
+        <obo:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A transparent display system that presents data without requiring the user to look away from their usual viewpoint in a given context.</obo:definition>
+        <rdfs:label>Heads-Up Display</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDd9c9XwbVPbzrj3ldfZYmn -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDd9c9XwbVPbzrj3ldfZYmn">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RSPl1mLotSmKXYXQMj8KAr"/>
+        <rdfs:label>Voice User Interface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RNSfu5AelFjPfJbxSado8b -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RNSfu5AelFjPfJbxSado8b">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8na8VKnWav0TgHXhnOPtcC"/>
+        <obo:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A graphical user interface specialized for use on mobile computing devices such as smartphones and tablet computers.</obo:definition>
+        <rdfs:label>Mobile Graphical User Interface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RNdKryQiXV5NmGigLvW4o -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RNdKryQiXV5NmGigLvW4o">
+        <rdfs:label>Application Programming Interface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RPkPyfNpEs4Q43Y7CkxudU -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RPkPyfNpEs4Q43Y7CkxudU">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RSPl1mLotSmKXYXQMj8KAr"/>
+        <obo:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A type of user interface that senses touch and optionally provides sensory feedback using vibration, motion or other means.</obo:definition>
+        <rdfs:label>Haptic User Interface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RQVM0HlYHC39igRKsG9onw -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RQVM0HlYHC39igRKsG9onw">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBvA0B2rJe6C3DTuxOc7TGl"/>
+        <rdfs:label>Magnetic Data Reader</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RSPl1mLotSmKXYXQMj8KAr -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RSPl1mLotSmKXYXQMj8KAr">
+        <obo:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A user interface enables interaction between humans and machines.</obo:definition>
+        <rdfs:label>User Interface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RWZS4zdogPm1e6e2L4TVfD -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RWZS4zdogPm1e6e2L4TVfD">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBvA0B2rJe6C3DTuxOc7TGl"/>
+        <rdfs:label>Keyboard Interface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RhBXLI6GFdDdrw3FrxDB1R -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RhBXLI6GFdDdrw3FrxDB1R">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RSPl1mLotSmKXYXQMj8KAr"/>
+        <rdfs:label>Virtual Reality User Interface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rt2B0XFKXcq2t2vd6CmK9O -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rt2B0XFKXcq2t2vd6CmK9O">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8na8VKnWav0TgHXhnOPtcC"/>
+        <obo:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A graphical user interface intended to be used primarily with desktop computers. The implementation interfaces directly to input and output devices, rather than being hosted inside another software system such as a web browser.</obo:definition>
+        <rdfs:label>Desktop Graphical User Interface</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.3.2) https://github.com/owlcs/owlapi -->
+
