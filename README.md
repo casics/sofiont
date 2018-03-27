@@ -1,7 +1,5 @@
-CASICS Softiont
+Softiont<img width="120px" align="right" src=".graphics/noun_719164_cc.svg">
 ================
-
-<img width="100px" align="right" src=".graphics/casics-logo-small.svg">
 
 _Softiont_ is the _Software Interface Ontology_, a controlled vocabulary of software interfaces.  It is intended to help describe the types of user and program interfaces offered by a software system.
 
@@ -40,6 +38,8 @@ Everyone is asked to read and respect the [code of conduct](CONDUCT.md) when par
 ------------------
 
 This material is based upon work supported by the [National Science Foundation](https://nsf.gov) under Grant Number 1533792 (Principal Investigator: Michael Hucka).  Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.
+
+The icon for Softiont is "API" [by mikicon &ndash; icon #719164 in the Noun Project](https://thenounproject.com/search/?q=api&i=719164).  It is used under the terms of a Creative Commons license.
 
 <br>
 <div align="center">
