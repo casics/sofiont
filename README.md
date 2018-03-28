@@ -14,6 +14,8 @@ One of the goals of the CASICS project is to describe software systems using con
 
 _Softiont_ provides terms for both human interface types and programmatic (API) interface types.  The terms can be used to describe the types of interfaces provided to users of a software system, where "user" is taken broadly to mean both human users and software programs.  A given software tool may provide more than one type of interface, of course, and it is perfectly reasonable to use as many Softiont terms as applicable to describe the software tool.
 
+The ontology is available in OWL format from this repository; it is also available [online via WebProtégé](http://webprotege.stanford.edu/#projects/3f17f7e9-5e29-4d54-85fb-a6ca53f297b1/edit/Classes)
+
 <!--
 Some examples of using Softiont terms:
 
