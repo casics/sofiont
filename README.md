@@ -10,11 +10,11 @@ _Sofiont_ is the _Software Interface Ontology_, a controlled vocabulary of softw
 ☀ Introduction
 -----------------------------
 
-One of the goals of the CASICS project is to describe software systems using controlled vocabularies, so that users can more easily find exactly the kind of software they are looking for.  One of the dimensions along which we wanted to categorize software is the kind of interfaces offered for (human) users as well as other software.  For example, does a given software tool provide a graphical user interface meant to be used on a desktop computer, or a command-line interface, or is it a programming toolkit offering only an API?  We began by using the [Software Ontology (SWO)](https://github.com/allysonlister/swo), which was the only ontology we could find that provided the kind of terms we needed, but we ultimately found we needed a bit more depth than SWO offered.  So we began to develop our own ontology of interface types.
+One of the goals of the CASICS project is to describe software systems using controlled vocabularies, so that users can more easily find exactly the kind of software they are looking for.  One of the dimensions along which we wanted to categorize software is the kind of interfaces offered for (human) users as well as other software.  For example, does a given software tool provide a graphical user interface meant to be used on a desktop computer, or a command-line interface, or is it a programming toolkit offering only an API?  We began by using the [Software Ontology (SWO)](https://github.com/allysonlister/swo), which was the only ontology we could find that provided the kind of terms we needed, but we ultimately found we needed a bit more depth than SWO offered.  This led us to begin developing our own ontology of interface types.
 
 _Sofiont_ provides terms for both human interface types and programmatic (API) interface types.  The terms can be used to describe the types of interfaces provided to users of a software system, where "user" is taken broadly to mean both human users and software programs.  A given software tool may provide more than one type of interface, of course, and it is perfectly reasonable to use as many Sofiont terms as applicable to describe the software tool.
 
-The ontology is available in OWL format from this repository; it is also available [online via WebProtégé](http://webprotege.stanford.edu/#projects/3f17f7e9-5e29-4d54-85fb-a6ca53f297b1/edit/Classes)
+The ontology is available in OWL format from this repository; it is also available [online via WebProtégé](http://webprotege.stanford.edu/#projects/3f17f7e9-5e29-4d54-85fb-a6ca53f297b1/edit/Classes).
 
 <!--
 Some examples of using Sofiont terms:
