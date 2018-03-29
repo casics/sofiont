@@ -87,6 +87,36 @@
     
 
 
+    <!-- http://webprotege.stanford.edu/R7YPNyztKEsU3bEFts34umP -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7YPNyztKEsU3bEFts34umP">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBdfoRq4krEU9wKTlMcH5m7"/>
+        <rdfs:label>WebSocket</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7cbmPTvvWueygTbKjjXuV0 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7cbmPTvvWueygTbKjjXuV0">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8X1FdUAnoheKZfXNyRw6JL"/>
+        <obo:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A shared-memory multiprocessing interface is a method of communicating between programs running at the same time in a way that involves sharing memory in a multiprocessor computer system.</obo:definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shared-memory interprocess communication</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7fRy6fs09zb0vWGwml6rg2 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7fRy6fs09zb0vWGwml6rg2">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7cbmPTvvWueygTbKjjXuV0"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Open Multi-Processing</obo:IAO_0000118>
+        <obo:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OpenMP iis an application programming interface that supports multiplatform shared memory multiprocessing programming in C, C++, and Fortran, on most platforms, instruction set architectures and operating systems. It consists of a set of compiler directives, library routines, and environment variables that influence run-time behavior.</obo:definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OpenMP</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://webprotege.stanford.edu/R7mcRBlIJ1ftpaoUR2oUB7s -->
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/R7mcRBlIJ1ftpaoUR2oUB7s">
@@ -94,6 +124,15 @@
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIDI</obo:IAO_0000118>
         <obo:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An interface and protocol for communication between electronic musical instruments and other electronic devices.</obo:definition>
         <rdfs:label>Musical Instrument Digital Interface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7msaFzyREbQkJSl13eKjHB -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7msaFzyREbQkJSl13eKjHB">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9X5FCL2erM4opY8IqPdSrj"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CORBA</rdfs:label>
     </owl:Class>
     
 
@@ -110,12 +149,49 @@
     
 
 
+    <!-- http://webprotege.stanford.edu/R8AwocnIWvJ3p7aBxHoerf0 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8AwocnIWvJ3p7aBxHoerf0">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCOUNfxGA9aiMrgv62r9qG3"/>
+        <rdfs:label>JMS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8Bk3anD4IaH5a70REE943F -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8Bk3anD4IaH5a70REE943F">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCOUNfxGA9aiMrgv62r9qG3"/>
+        <rdfs:label>AMQP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8X1FdUAnoheKZfXNyRw6JL -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8X1FdUAnoheKZfXNyRw6JL">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RNdKryQiXV5NmGigLvW4o"/>
+        <obo:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A network communications interface is any kind of software communications interface that allows two or more entities to transmit information via any kind of networking system.</obo:definition>
+        <rdfs:label>Network communications interface</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://webprotege.stanford.edu/R8XblilRxWO2Y6Omc9hVAoj -->
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/R8XblilRxWO2Y6Omc9hVAoj">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9X5vpK3Gpu70USp1GY4I9X"/>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gesture Interface</obo:IAO_0000118>
         <rdfs:label>Gesture-Driven Interface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8eEnKMGol3UJeFlD2EAJvN -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8eEnKMGol3UJeFlD2EAJvN">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCOUNfxGA9aiMrgv62r9qG3"/>
+        <rdfs:label>XMPP</rdfs:label>
     </owl:Class>
     
 
@@ -152,12 +228,30 @@
     
 
 
+    <!-- http://webprotege.stanford.edu/R951uLfT4BvdJiCEAwlppgF -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R951uLfT4BvdJiCEAwlppgF">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCOUNfxGA9aiMrgv62r9qG3"/>
+        <rdfs:label>PVM</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://webprotege.stanford.edu/R9GCWwtRVX5bQzZwoWWETcE -->
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/R9GCWwtRVX5bQzZwoWWETcE">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBvA0B2rJe6C3DTuxOc7TGl"/>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Video Game Console</obo:IAO_0000118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gaming Console</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9GLvbn2DRezEimEv0zHpil -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9GLvbn2DRezEimEv0zHpil">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBeqFNJ6Uxgs4PHv7332rXC"/>
+        <rdfs:label>Ajax</rdfs:label>
     </owl:Class>
     
 
@@ -175,6 +269,54 @@
     
 
 
+    <!-- http://webprotege.stanford.edu/R9OyIRJxNZskBm96xe5WlD9 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9OyIRJxNZskBm96xe5WlD9">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBeqFNJ6Uxgs4PHv7332rXC"/>
+        <rdfs:label>XML-RPC</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9QfXtIGNS6ZNXDv2b8ZoE8 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9QfXtIGNS6ZNXDv2b8ZoE8">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9X5FCL2erM4opY8IqPdSrj"/>
+        <rdfs:label>.NET Remoting</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9TAOTMK2BE3sVWH0XvsLCF -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9TAOTMK2BE3sVWH0XvsLCF">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCOUNfxGA9aiMrgv62r9qG3"/>
+        <rdfs:label>D-Bus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9X3LqmQMHdNG2pLvsgBfAw -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9X3LqmQMHdNG2pLvsgBfAw">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCOUNfxGA9aiMrgv62r9qG3"/>
+        <rdfs:label>MSMQ</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9X5FCL2erM4opY8IqPdSrj -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9X5FCL2erM4opY8IqPdSrj">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8X1FdUAnoheKZfXNyRw6JL"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RMI</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RPC</obo:IAO_0000118>
+        <obo:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A remote invocation interface is any kind of remote procedure call (RPC) or remote method invocation (RMI) interface that allows a program to cause a procedure to execute in a different address space (commonly on another computer) in a way that makes the call resemble a normal (local) procedure call.</obo:definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Remote invocation interface</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://webprotege.stanford.edu/R9X5vpK3Gpu70USp1GY4I9X -->
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/R9X5vpK3Gpu70USp1GY4I9X">
@@ -186,12 +328,50 @@
     
 
 
+    <!-- http://webprotege.stanford.edu/R9bKpWqg90NtwTA8MNXTnSg -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9bKpWqg90NtwTA8MNXTnSg">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCOUNfxGA9aiMrgv62r9qG3"/>
+        <rdfs:label>ActiveMQ</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9luQtAhJWFHX8Ps34oaQFr -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9luQtAhJWFHX8Ps34oaQFr">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7cbmPTvvWueygTbKjjXuV0"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compute Unified Device Architecture</obo:IAO_0000118>
+        <obo:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CUDA is a parallel computing platform and application programming interface model created by the Nvidia Corporation. It allows software developers and software engineers to use a CUDA-enabled graphics processing unit (GPU) for general purpose processing. The CUDA platform is a software layer that gives direct access to the GPU&apos;s virtual instruction set and parallel computational elements, for the execution of compute kernels.</obo:definition>
+        <rdfs:label>CUDA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9vLRL2vMqCmIvNIWFlcAUt -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9vLRL2vMqCmIvNIWFlcAUt">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCOUNfxGA9aiMrgv62r9qG3"/>
+        <rdfs:label>ZeroMQ</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://webprotege.stanford.edu/R9yF9Yc7NWEBKUS18R4UfYf -->
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/R9yF9Yc7NWEBKUS18R4UfYf">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RSPl1mLotSmKXYXQMj8KAr"/>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUI</obo:IAO_0000118>
         <rdfs:label>Distributed User Interface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB4J1C6p5nz7IcxWtEPGLvv -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB4J1C6p5nz7IcxWtEPGLvv">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCOUNfxGA9aiMrgv62r9qG3"/>
+        <rdfs:label>IronMQ</rdfs:label>
     </owl:Class>
     
 
@@ -209,6 +389,33 @@
     
 
 
+    <!-- http://webprotege.stanford.edu/RBdfoRq4krEU9wKTlMcH5m7 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBdfoRq4krEU9wKTlMcH5m7">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8X1FdUAnoheKZfXNyRw6JL"/>
+        <rdfs:label>Network sockets</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBeqFNJ6Uxgs4PHv7332rXC -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBeqFNJ6Uxgs4PHv7332rXC">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9X5FCL2erM4opY8IqPdSrj"/>
+        <rdfs:label>Web services interface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBjmcKlMV325RA2HcTqcdod -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBjmcKlMV325RA2HcTqcdod">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9X5FCL2erM4opY8IqPdSrj"/>
+        <rdfs:label>Java RMI</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://webprotege.stanford.edu/RBoeUuDLJNzT6tt5qwJeDk -->
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/RBoeUuDLJNzT6tt5qwJeDk">
@@ -220,12 +427,34 @@
     
 
 
+    <!-- http://webprotege.stanford.edu/RBuJ54EpQ78j5bpzOLCtR4H -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBuJ54EpQ78j5bpzOLCtR4H">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7cbmPTvvWueygTbKjjXuV0"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pthreads</obo:IAO_0000118>
+        <obo:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POSIX Threads is an execution model that exists independently from a language, as well as a parallel execution model. It allows a program to control multiple different flows of work that overlap in time. Each flow of work is referred to as a thread, and creation and control over these flows is achieved by making calls to the POSIX Threads API. POSIX Threads is an API defined by the standard POSIX.1c, Threads extensions (IEEE Std 1003.1c-1995).</obo:definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POSIX Threads</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://webprotege.stanford.edu/RBvA0B2rJe6C3DTuxOc7TGl -->
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/RBvA0B2rJe6C3DTuxOc7TGl">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBoeUuDLJNzT6tt5qwJeDk"/>
         <obo:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A type of hardware user interface for humans to provide input to a system via direct physical action. Examples of devices in this category include knobs, sliders, steering wheels, etc.</obo:definition>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Operator Interface Console</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBwcUyiQjCjoMFvkydmCbkD -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBwcUyiQjCjoMFvkydmCbkD">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7cbmPTvvWueygTbKjjXuV0"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Open Computing Language</obo:IAO_0000118>
+        <obo:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OpenCL is a framework for writing programs that execute across heterogeneous platforms consisting of central processing units (CPUs), graphics processing units (GPUs), digital signal processors (DSPs), field-programmable gate arrays (FPGAs) and other processors or hardware accelerators. It provides a standard interface for parallel computing using task- and data-based parallelism.</obo:definition>
+        <rdfs:label>OpenCL</rdfs:label>
     </owl:Class>
     
 
@@ -255,6 +484,52 @@
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8nu17Buqw1aoAS9dnFLb5i"/>
         <obo:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A type of text-based user interface in which input and output is handled by a program in direct interaction with the user through a text mode display. The interface operates in a sequence of displaying information, prompting the user for input, waiting for input from the user, acting on the input, and back to displaying information.</obo:definition>
         <rdfs:label>Interactive Text-Based Interface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCOUNfxGA9aiMrgv62r9qG3 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCOUNfxGA9aiMrgv62r9qG3">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8X1FdUAnoheKZfXNyRw6JL"/>
+        <rdfs:label>Message-passing interface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCPEud7gMWQc54eZiWDRcdy -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCPEud7gMWQc54eZiWDRcdy">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RNdKryQiXV5NmGigLvW4o"/>
+        <obo:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A function/class library interface is a set of clearly defined methods of communication between software components defined as object class libraries, function libraries, and similar program interaction mechanisms.</obo:definition>
+        <rdfs:label>Function/class library interface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCZ3QGCvG8oHWdBXoubqtqy -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCZ3QGCvG8oHWdBXoubqtqy">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBeqFNJ6Uxgs4PHv7332rXC"/>
+        <rdfs:label>WCF</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCZa7kO1duypmFIrj3yfq2A -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCZa7kO1duypmFIrj3yfq2A">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBeqFNJ6Uxgs4PHv7332rXC"/>
+        <rdfs:label>REST</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCcqL6Ra381s0Cwxs9SWzJY -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCcqL6Ra381s0Cwxs9SWzJY">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9X5FCL2erM4opY8IqPdSrj"/>
+        <rdfs:label>DCOM</rdfs:label>
     </owl:Class>
     
 
@@ -291,6 +566,15 @@
     
 
 
+    <!-- http://webprotege.stanford.edu/RDN0dE4c6splRuwsjeIw1yO -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDN0dE4c6splRuwsjeIw1yO">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCOUNfxGA9aiMrgv62r9qG3"/>
+        <rdfs:label>RabbitMQ</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://webprotege.stanford.edu/RDVIUFFtAWW3YCB7hMPXPsE -->
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/RDVIUFFtAWW3YCB7hMPXPsE">
@@ -323,6 +607,17 @@
     
 
 
+    <!-- http://webprotege.stanford.edu/RDq9fRxj9AVfuLLdyrDnt6h -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDq9fRxj9AVfuLLdyrDnt6h">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RNdKryQiXV5NmGigLvW4o"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Device driver</obo:IAO_0000118>
+        <obo:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A hardware device interface provides a software interface to communicate with a hardware device attached to a computer, enabling operating systems and other computer programs to access hardware functions.</obo:definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hardware device interface</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://webprotege.stanford.edu/RDr1i1Cx9d9TGEcW6g0Nk64 -->
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/RDr1i1Cx9d9TGEcW6g0Nk64">
@@ -330,6 +625,17 @@
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graspable User Interface</obo:IAO_0000118>
         <obo:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Tangible User Interface is a user interface in which a person interacts with digital information through the physical environment.</obo:definition>
         <rdfs:label>Tangible User Interface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RGcpKnwGDHI2LcQJCZHmOZ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RGcpKnwGDHI2LcQJCZHmOZ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCPEud7gMWQc54eZiWDRcdy"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COM</obo:IAO_0000118>
+        <obo:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A binary-interface standard for software components introduced by Microsoft in 1993. It is used to enable interprocess communication object creation in a large range of programming languages.</obo:definition>
+        <rdfs:label>Component Object Model interface</rdfs:label>
     </owl:Class>
     
 
@@ -348,6 +654,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/RNdKryQiXV5NmGigLvW4o">
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">API</obo:IAO_0000118>
+        <obo:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An application programming interface (API) is a set of subroutine definitions, protocols, and tools for building application software. In general terms, it is a set of clearly defined methods of communication between various software components.</obo:definition>
         <rdfs:label>Application Programming Interface</rdfs:label>
     </owl:Class>
     
@@ -382,6 +689,15 @@
     
 
 
+    <!-- http://webprotege.stanford.edu/RW9eggQCglt6O83xMYFzhI -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RW9eggQCglt6O83xMYFzhI">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCOUNfxGA9aiMrgv62r9qG3"/>
+        <rdfs:label>MPI</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://webprotege.stanford.edu/RWZS4zdogPm1e6e2L4TVfD -->
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/RWZS4zdogPm1e6e2L4TVfD">
@@ -400,12 +716,30 @@
     
 
 
+    <!-- http://webprotege.stanford.edu/RmxzNSGZNZSHinsGLqshEB -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RmxzNSGZNZSHinsGLqshEB">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBeqFNJ6Uxgs4PHv7332rXC"/>
+        <rdfs:label>JSON-RPC</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://webprotege.stanford.edu/Rt2B0XFKXcq2t2vd6CmK9O -->
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/Rt2B0XFKXcq2t2vd6CmK9O">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8na8VKnWav0TgHXhnOPtcC"/>
         <obo:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A graphical user interface intended to be used primarily with desktop computers. The implementation interfaces directly to input and output devices, rather than being hosted inside another software system such as a web browser.</obo:definition>
         <rdfs:label>Desktop Graphical User Interface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RzeCvcXvSA86pNb37wAVon -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RzeCvcXvSA86pNb37wAVon">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBeqFNJ6Uxgs4PHv7332rXC"/>
+        <rdfs:label>SOAP</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
